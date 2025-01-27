@@ -19,4 +19,7 @@ class Lab1 {
   public int increment(int num) {
     return ++num;
   }
+  public int add(int b, int a) {
+    return a + b;
+  }
 }
