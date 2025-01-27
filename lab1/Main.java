@@ -1,4 +1,5 @@
-//import java.util.*;
+package lab1;
+import java.util.*;
 /*
  * IT-2660 - Lab 1
  * Student Name: Daniel Pratt 
