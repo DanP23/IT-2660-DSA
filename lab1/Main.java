@@ -21,7 +21,7 @@ public class Main {
       System.out.println(nums[i]);
       i++;
     }
-    System.out.println("array from last index to first is: ");
+    System.out.println("array in reverse order is: ");
     for (int j = nums.length - 1; j >= 0; j--) {
       System.out.println(nums[j]);
     }
