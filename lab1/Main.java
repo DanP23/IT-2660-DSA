@@ -82,11 +82,10 @@ class Lab1 {
   // method to retrieve the average value in an array
   public double average(int[] nums) {
     int counter = 0;
-    // Iterate through the array using foreach loop
     for (int num : nums) {
-        counter += num;  // Sum up all elements
+        counter += num; 
     }
-    return (double) counter / nums.length;  // Calculate and return the average
+    return (double) counter / nums.length;
   }
 
   // method to go through array and retrieve greatest value
