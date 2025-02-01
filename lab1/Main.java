@@ -31,7 +31,7 @@ public class Main {
     /* creating new Lab1 object and calling created methods for lab1 class */
 
     Lab1 newLab = new Lab1();
-    System.out.println("Max value is: " +newLab.max(10, 15));
+    System.out.println("Max value is: " + newLab.max(10, 15));
     System.out.println("Min value is: " + newLab.min(20, 25));
     System.out.println("average value in array is: " + newLab.average(nums));
     System.out.println("Sum of all values in array is: " + newLab.sum(nums));
