@@ -28,10 +28,10 @@ class Lab2 {
     LinkedList<String> progLanguages = new LinkedList<>();
 
     // 2. offer elements to progLanguages: "Java", "Python", "JavaScript", "C++"
-    progLanguages.add("Java");
-    progLanguages.add("Python");
-    progLanguages.add("JavaScript");
-    progLanguages.add("C++");
+    progLanguages.offer("Java");
+    progLanguages.offer("Python");
+    progLanguages.offer("JavaScript");
+    progLanguages.offer("C++");
 
     // 3. Remove the element "C++" from the list using .remove()
     progLanguages.remove("C++");
@@ -52,11 +52,11 @@ class Lab2 {
     Queue<String> q = new java.util.LinkedList<>();
 
     // 7. add 5 first names to q.
-    q.offer("Jacob");
-    q.offer("Daniel");
-    q.offer("Matthew");
-    q.offer("David");
-    q.offer("Joseph");
+    q.add("Jacob");
+    q.add("Daniel");
+    q.add("Matthew");
+    q.add("David");
+    q.add("Joseph");
 
     // 8. Uncomment the following line
     System.out.println("Elements of queue: " + q);
