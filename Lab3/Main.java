@@ -1,4 +1,4 @@
-package Lab2.Lab3;
+package Lab3;
 
 public class Main {
   
