@@ -1,5 +1,9 @@
-package Lab4;
+/*
+ * IT-2660 - Lab 4
+ * Student Name: Daniel Pratt 
+ */
 
+package Lab4;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
