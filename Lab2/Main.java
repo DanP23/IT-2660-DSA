@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Iterator;
 
 // Lab 2 - Lists, Stacks, and Queues
-// Your Name: Daniel Pratt (Im learning a lot in this class thank you)
+// Your Name: Daniel Pratt (Im learning a lot in this class thank you) hello
 // Notes: The instructions are found in comments through the code starting with "Step n"
 //        Please leave the comments and offer your code just after the comment.
 //        Use the examples in the book to complete the lab.
