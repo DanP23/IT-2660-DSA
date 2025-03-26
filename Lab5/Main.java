@@ -1,6 +1,6 @@
 /*
- * IT-2660-DSA - Lab 5
- * Student Name: Daniel Pratt Daniel Pratt
+ * IT-2660-DSA - Lab 5 final copy
+ * Student Name: Daniel Pratt
  */
 package Lab5;
 
@@ -58,7 +58,7 @@ package Lab5;
      System.out.println("path to 2 is: ");
      ArrayList<BST.TreeNode<Integer>> k = lab5Tree.path(2);
      for (BST.TreeNode<Integer> node : k) {
-       System.out.println(node.element); // This will print the data of each node in the path
+       System.out.println(node.element);
      }
  
      // Step 10 - Display the path from the root to 34
