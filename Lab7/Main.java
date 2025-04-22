@@ -16,30 +16,31 @@ class Main {
 
 
     Graph<String> graph = new UnweightedGraph<>(vertices, edges);
-    graph.addVertex("Business & Technology");
     graph.addVertex("Liberal Arts");
     graph.addVertex("Student Services");
     graph.addVertex("Health Careers & Sciences");
     graph.addVertex("Health Technologies Center");
     graph.addVertex("Recreation Center");
     graph.addVertex("Technology Learning Center");
+    graph.addVertex("Business & Technology");
     graph.addVertex("Theatre");
 
     // edges represent directly linked areas
     graph.addEdge(new Edge(0, 7));
-    graph.addEdge(new Edge(0, 2));
-    graph.addEdge(new Edge(1, 7));
+    graph.addEdge(new Edge(0, 1));
+    graph.addEdge(new Edge(1, 0));
     graph.addEdge(new Edge(1, 2));
+    graph.addEdge(new Edge(1, 5));
     graph.addEdge(new Edge(2, 1));
     graph.addEdge(new Edge(2, 3));
     graph.addEdge(new Edge(3, 2));
-    graph.addEdge(new Edge(3, 4));
-    graph.addEdge(new Edge(4, 3));
-    graph.addEdge(new Edge(5, 2));
-    graph.addEdge(new Edge(5, 4));
-    graph.addEdge(new Edge(6, 2));
+    graph.addEdge(new Edge(4, 2));
+    graph.addEdge(new Edge(4, 1));
+    graph.addEdge(new Edge(5, 1));
+    graph.addEdge(new Edge(6, 7));
+    graph.addEdge(new Edge(6, 1));
     graph.addEdge(new Edge(7, 0));
-    graph.addEdge(new Edge(7, 1));
+    graph.addEdge(new Edge(7, 6));
 
 
     UnweightedGraph<String>.SearchTree dfs = graph.dfs(graph.getIndex("Business & Technology")); // Get a dfs starting at the Business and Technology Building. Change this is you called it something different in your vertices!
