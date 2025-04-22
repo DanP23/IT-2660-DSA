@@ -46,15 +46,15 @@ class Main {
     UnweightedGraph<String>.SearchTree dfs = graph.dfs(graph.getIndex("Business & Technology")); // Get a dfs starting at the Business and Technology Building. Change this is you called it something different in your vertices!
 
     // path from Business and Technology to Health Tech Center
-    dfs.printPath(4);
+    dfs.printPath(3);
     System.out.println();
 
     // path from Business and Technology to Student Services
-    dfs.printPath(2);
+    dfs.printPath(1);
     System.out.println();
 
     // path from Business and Technology to Recreation Center
-    dfs.printPath(5);
+    dfs.printPath(4);
     System.out.println();
 
     // print tree
